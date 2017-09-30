@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -8,7 +8,7 @@
     tools:context="com.example.achala.theorder.MainActivity">
 
     <fragment
-        android:id="@+id/fragment4"
+        android:id="@+id/fragMenue"
         android:name="layout.MainButton"
         android:layout_width="212dp"
         android:layout_height="match_parent"
@@ -16,8 +16,13 @@
         android:layout_row="0" />
 
     <fragment
-        android:id="@+id/fragment5"
+        android:id="@+id/fragDefault"
         android:name="layout.Promo"
-        android:layout_width="match_parent"
+        android:layout_marginLeft="212dp"
+        android:layout_width="760dp"
         android:layout_height="match_parent" />
-</GridLayout>
+
+
+
+
+</RelativeLayout>
